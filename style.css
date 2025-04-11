@@ -1,0 +1,37 @@
+body {
+  background: black;
+  color: white;
+  font-family: "Comic Sans MS", cursive;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  animation: pulse 1s infinite alternate;
+}
+
+button {
+  font-size: 1.5rem;
+  background-color: #ff0055;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+@keyframes pulse {
+  from {
+    color: #ff66cc;
+  }
+  to {
+    color: #ffffff;
+  }
+}
